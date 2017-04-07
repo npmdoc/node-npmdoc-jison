@@ -1,0 +1,30 @@
+<svg height="430" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="430" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">  0.  2017-04-07 04:09:40 +0000   171737 byte  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-07 04:09:40 +0000      527 byte  CONTRIBUTING.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-07 04:09:40 +0000      478 byte  Makefile</tspan>
+<tspan x="10" y="74">  3.  2017-04-07 04:09:40 +0000     5032 byte  README.md</tspan>
+<tspan x="10" y="90">  4.  2017-04-07 04:09:40 +0000    14763 byte  classy.js</tspan>
+<tspan x="10" y="106">  5.  2017-04-07 04:09:40 +0000       66 byte  entry.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-07 04:09:40 +0000     5005 byte  lib/cli.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-07 04:09:40 +0000    66126 byte  lib/jison.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-07 04:09:40 +0000     3089 byte  lib/util/set.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-07 04:09:40 +0000     2840 byte  lib/util/typal.js</tspan>
+<tspan x="10" y="186"> 10.  2017-04-07 04:09:40 +0000     2509 byte  package.json</tspan>
+<tspan x="10" y="202"> 11.  2017-04-07 04:09:40 +0000      119 byte  tests/all-tests.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-07 04:09:40 +0000    13783 byte  tests/parser/actions.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-07 04:09:40 +0000    11060 byte  tests/parser/api.js</tspan>
+<tspan x="10" y="250"> 14.  2017-04-07 04:09:40 +0000     5695 byte  tests/parser/errorlab.js</tspan>
+<tspan x="10" y="266"> 15.  2017-04-07 04:09:40 +0000     9900 byte  tests/parser/generator.js</tspan>
+<tspan x="10" y="282"> 16.  2017-04-07 04:09:40 +0000     8241 byte  tests/parser/lalr.js</tspan>
+<tspan x="10" y="298"> 17.  2017-04-07 04:09:40 +0000     1792 byte  tests/parser/lr0.js</tspan>
+<tspan x="10" y="314"> 18.  2017-04-07 04:09:40 +0000     5016 byte  tests/parser/lr1.js</tspan>
+<tspan x="10" y="330"> 19.  2017-04-07 04:09:40 +0000      472 byte  tests/parser/parser-tests.js</tspan>
+<tspan x="10" y="346"> 20.  2017-04-07 04:09:40 +0000     6678 byte  tests/parser/precedence.js</tspan>
+<tspan x="10" y="362"> 21.  2017-04-07 04:09:40 +0000     1400 byte  tests/parser/slr.js</tspan>
+<tspan x="10" y="378"> 22.  2017-04-07 04:09:40 +0000     3431 byte  tests/parser/tables.js</tspan>
+<tspan x="10" y="394"> 23.  2017-04-07 04:09:40 +0000     3608 byte  tests/performance.js</tspan>
+<tspan x="10" y="410"> 24.  2017-04-07 04:09:40 +0000      107 byte  tests/setup.js</tspan>
+</text>
+</svg>
