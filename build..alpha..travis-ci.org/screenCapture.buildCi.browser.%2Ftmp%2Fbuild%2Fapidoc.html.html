@@ -176,6 +176,94 @@
 
     </ol></li>
 
+    <li class="apidocModuleLi"><a href="#apidoc.module.jison.Jison">module jison.Jison</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.jison.Jison.Generator">
+            function <span class="apidocSignatureSpan">jison.Jison.</span>Generator
+            <span class="apidocSignatureSpan">(g, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.jison.Jison.LALRGenerator">
+            function <span class="apidocSignatureSpan">jison.Jison.</span>LALRGenerator
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.jison.Jison.LLGenerator">
+            function <span class="apidocSignatureSpan">jison.Jison.</span>LLGenerator
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.jison.Jison.LR0Generator">
+            function <span class="apidocSignatureSpan">jison.Jison.</span>LR0Generator
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.jison.Jison.LR1Generator">
+            function <span class="apidocSignatureSpan">jison.Jison.</span>LR1Generator
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.jison.Jison.Parser">
+            function <span class="apidocSignatureSpan">jison.Jison.</span>Parser
+            <span class="apidocSignatureSpan">(g, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.jison.Jison.SLRGenerator">
+            function <span class="apidocSignatureSpan">jison.Jison.</span>SLRGenerator
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.jison.Jison.print">
+            function <span class="apidocSignatureSpan">jison.Jison.</span>print
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">jison.</span>Jison</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">jison.Jison.</span>version</span>
+
+        </li>
+
+    </ol></li>
+
     <li class="apidocModuleLi"><a href="#apidoc.module.jison.LALRGenerator">module jison.LALRGenerator</a><ol>
 
         <li>
@@ -539,6 +627,136 @@
 
 
 
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.jison.Jison" id="apidoc.module.jison.Jison">module jison.Jison</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.jison.Jison.Generator" id="apidoc.element.jison.Jison.Generator">
+        function <span class="apidocSignatureSpan">jison.Jison.</span>Generator
+        <span class="apidocSignatureSpan">(g, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Jison_Generator(g, options) {
+    var opt = typal.mix.call({}, g.options, options);
+    switch (opt.type) {
+        case 'lr0':
+            return new LR0Generator(g, opt);
+        case 'slr':
+            return new SLRGenerator(g, opt);
+        case 'lr':
+            return new LR1Generator(g, opt);
+        case 'll':
+            return new LLGenerator(g, opt);
+        default:
+            return new LALRGenerator(g, opt);
+    }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.jison.Jison.LALRGenerator" id="apidoc.element.jison.Jison.LALRGenerator">
+        function <span class="apidocSignatureSpan">jison.Jison.</span>LALRGenerator
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">LALRGenerator = function () { return constructor.apply(this, arguments); }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.jison.Jison.LLGenerator" id="apidoc.element.jison.Jison.LLGenerator">
+        function <span class="apidocSignatureSpan">jison.Jison.</span>LLGenerator
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">LLGenerator = function () { return constructor.apply(this, arguments); }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.jison.Jison.LR0Generator" id="apidoc.element.jison.Jison.LR0Generator">
+        function <span class="apidocSignatureSpan">jison.Jison.</span>LR0Generator
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">LR0Generator = function () { return constructor.apply(this, arguments); }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.jison.Jison.LR1Generator" id="apidoc.element.jison.Jison.LR1Generator">
+        function <span class="apidocSignatureSpan">jison.Jison.</span>LR1Generator
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">LR1Generator = function () { return constructor.apply(this, arguments); }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.jison.Jison.Parser" id="apidoc.element.jison.Jison.Parser">
+        function <span class="apidocSignatureSpan">jison.Jison.</span>Parser
+        <span class="apidocSignatureSpan">(g, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Parser(g, options) {
+    var gen = Jison.Generator(g, options);
+    return gen.createParser();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.jison.Jison.SLRGenerator" id="apidoc.element.jison.Jison.SLRGenerator">
+        function <span class="apidocSignatureSpan">jison.Jison.</span>SLRGenerator
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">SLRGenerator = function () { return constructor.apply(this, arguments); }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.jison.Jison.print" id="apidoc.element.jison.Jison.print">
+        function <span class="apidocSignatureSpan">jison.Jison.</span>print
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">print = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
 
 
 
